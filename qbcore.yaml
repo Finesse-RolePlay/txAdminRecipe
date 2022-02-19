@@ -8,7 +8,7 @@ description: An advanced FiveM RP framework including jobs, gangs, housing & mor
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/qbcore-framework/txAdminRecipe
+    src: https://github.com/Finesse-RolePlay/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -134,7 +134,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/qbcore-framework/qb-core
+    src: https://github.com/Finesse-RolePlay/qb-core
 
   - action: download_github
     dest: ./resources/[qb]/qb-gangmenu
@@ -484,6 +484,11 @@ tasks:
     dest: ./resources/[qb]/qb-input
     ref: main
     src: https://github.com/qbcore-framework/qb-input
+
+  - action: download_github
+    dest: ./resources/[standalone]/qb-mdt
+    ref: main
+    src: https://github.com/Finesse-RolePlay/qb-mdt
 
   # Clean up
   - action: remove_path
