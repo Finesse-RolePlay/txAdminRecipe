@@ -1,7 +1,7 @@
 $engine: 3
 $onesync: on
 name: QBCore Framework
-version: 2.1.0
+version: 2.2.2
 author: JericoFx & Kakarot & Hamy
 description: An advanced FiveM RP framework including jobs, gangs, housing & more!
 
@@ -193,11 +193,6 @@ tasks:
     dest: ./resources/[qb]/qb-atms
     ref: main
     src: https://github.com/qbcore-framework/qb-atms
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-ifruitstore
-    ref: main
-    src: https://github.com/qbcore-framework/qb-ifruitstore
     
   - action: download_github
     dest: ./resources/[qb]/qb-hud
@@ -456,11 +451,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-drugs
 
   - action: download_github
-    dest: ./resources/[qb]/qb-builderjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-builderjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-shops
     ref: main
     src: https://github.com/qbcore-framework/qb-shops
@@ -484,6 +474,11 @@ tasks:
     dest: ./resources/[qb]/qb-input
     ref: main
     src: https://github.com/qbcore-framework/qb-input
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-loading
+    ref: main
+    src: https://github.com/qbcore-framework/qb-loading
 
   - action: download_github
     dest: ./resources/[standalone]/qb-mdt
